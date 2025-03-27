@@ -1,0 +1,11 @@
+[project]
+name = "oauth-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-auth>=2.38.0",
+    "google-auth-oauthlib>=1.2.1",
+    "google-cloud-logging>=3.11.4",
+]
