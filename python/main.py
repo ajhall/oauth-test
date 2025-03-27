@@ -6,7 +6,6 @@ LOG_PROJECT_ID = "ajhall-logsink"
 CLIENT_SECRETS_FILE = "oauth_client_secret.json"
 IMPERSONATED_SERVICE_ACCOUNT = "log-writer@ajhall-logsink.iam.gserviceaccount.com"
 SCOPES = [
-    "openid",
     "https://www.googleapis.com/auth/cloud-platform",
 ]
 

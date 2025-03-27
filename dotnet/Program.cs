@@ -12,7 +12,7 @@ var flow = new GoogleAuthorizationCodeFlow(
     new GoogleAuthorizationCodeFlow.Initializer
     {
         ClientSecrets = GoogleClientSecrets.FromFile(ClientSecretsFile).Secrets,
-        Scopes = ["openid", "https://www.googleapis.com/auth/cloud-platform"],
+        Scopes = ["https://www.googleapis.com/auth/cloud-platform"],
     }
 );
 var authApp = new AuthorizationCodeInstalledApp(flow, new LocalServerCodeReceiver());
